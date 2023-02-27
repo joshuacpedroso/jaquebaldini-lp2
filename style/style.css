@@ -1,0 +1,274 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* Index */
+.index {
+    background-color: #120a33;
+    width: 100%;
+    height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.index h1 {
+    line-height: 48px;
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    text-align: center;
+    max-width: 715px;
+}
+.p-inicial {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.index a {
+    display: flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    align-self: center;
+    background-color: rgba(219,25,130,1);
+    border-bottom-style: none;
+    border-color: #000000;
+    border-radius: 6px;
+    border-width: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    height: 65px;
+    justify-content: center;
+    line-height: 1.42857;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 502px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.span-inicial {
+    margin-bottom: 24px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* O que vai aprender */
+.aprender {
+    min-height: 819px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.aprende {
+    padding-left: 70px;
+    padding-right: 0px;
+}
+.aprende h1 {
+    text-align: center;
+    width: auto;
+    margin-top: 30px;
+    font-weight: unset;
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(219, 25, 130);
+}
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caixa {
+    margin-top: 116px;
+    width: 402px;
+}
+.caixa h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 94px;
+    border: 2px solid rgb(219, 25, 130);
+    text-align: center;
+    border-radius: 137px;
+    font-size: 82px;
+}
+.caixa p {
+    width: 266px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sobre a mentoria */
+.sobre-mentoria {
+    background-color: rgba(245,35,203,0.08);
+    height: 439px;
+    border-top: 4px solid #f523cb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre {
+    width: 900px;
+}
+.sobre h1 {
+    margin-top: 50px;
+    font-weight: unset;
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(219, 25, 130);
+    margin-bottom: 50px;
+}
+.sobre p {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+    font-size: 17px;
+    line-height: 2.25;
+}
+.sobre span {
+    color: rgb(222, 50, 50);
+}
+/* Resultados da mentoria */
+.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    background-color: #120a33;
+    color: white;
+}
+
+.slides {
+    width: 950px;
+}
+.slides h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+}
+.slides span {
+    color: rgb(219, 25, 130);
+}
+.carousel img {
+    
+    width: 200px;
+
+}
+/* Ebook */
+.anuncio {
+    display: flex;
+    height: 446px;
+    background-color: rgba(245,35,203,0.08);
+    flex-direction: column;
+    align-items: center;
+}
+.anuncio-menor {
+    height: 446px;
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(245,35,203,0.08);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio-menor img {
+    width: 332px;
+}
+.anuncio-menor h1 {
+    color: rgb(219, 25, 130);
+    font-family: Ubuntu, sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.anuncio-menor a {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    align-self: center;
+    background-color: rgba(219,25,130,1);
+   
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    height: 58px;
+    justify-content: center;
+    line-height: 1.42857;
+    margin-bottom: 10px;
+    margin-top: 28px;
+    max-width: 263px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   display: flex;
+   align-items: center;
+}
+/* perguntas */
+.perguntas {
+    display: flex;
+    color: white;
+    height: 383px;
+    border-top: 4px solid #db1982;
+    background-color: rgba(18,10,51,1);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.pergunta {
+    width: 940px;
+}
+.pergunta h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+.pergunta p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.pergunta span {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+/*footer */
+footer {
+    color: white;
+    display: flex;
+    height: 60px;
+    background-color: #db1982;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
